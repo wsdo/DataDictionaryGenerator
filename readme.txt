@@ -10,4 +10,5 @@
 
 二.使用方法
 1.打开inc/site.inc.php 修改你本地配置的访问路径
-2.运行default.php开始配置
+2.在当前目录下创建tmp目录，有写权限
+3.运行default.php开始配置
