@@ -1,0 +1,1 @@
+<?php if ( ! defined('EASY4PHP')) exit('Not allowed');

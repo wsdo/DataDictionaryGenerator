@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+/*--begin common--*/
+* { border: 0 none; margin: 0; padding: 0; word-wrap: break-word;}
+ol, ul {list-style: none outside none;}
+body { font:12px/1.6 Arial,宋体,Helvetica,sans-serif; _font-family:"SimSun";}
+.hide {display:none;}
+.show {display:block;}
+.clr {clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+/*--end common--*/
+.mainNavTable{
+	width:98%;
+	border:0;
+	background-color:#ccd9b9;
+}
+.mainNavTd {
+	background-image:url(../img/main_bg.gif) ;
+	height:26px;
+}
+
+.recordTable {
+	width:98%;
+	border:0;
+	background-color:#CFCFCF;
+}
+
+.inputBtn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #c5aa0e; /* 3366CC;   */
+    border-color: -moz-use-text-color #000000 #000000 -moz-use-text-color;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 22px;
+    overflow: visible;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    vertical-align: middle;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   /* background: url("../img/btbg1.gif") repeat scroll 0 0 #EFF7D0;*/
+   background-color:#ccd9b9;
+    border-color: -moz-use-text-color #ACACAC #ACACAC -moz-use-text-color;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.recordTableTr{
+	background-color:#FFFFFF;
+	height:25px;
+}
+.trselectedbgcolor{
+	background-color:#ffcc99;
+}
+.trbgcolor{
+	background-color:#c5aa0e;
+}
+
+.inputText{
+	border:1px solid #c5aa0e;
+}
+.optionTab {
+    height: 24px;
+    width: 98%;
+}
+.optionTab ul li {
+    display: inline-block;
+    float: left;
+    height: 24px;
+    text-align: center;
+    width: 80px;
+    cursor:pointer ;
+   line-height:25px;  /*chrome 有细缝*/ 
+}
+.optionTab ul li span {    
+	padding-top: 4px;    
+}
+.optionTab_li {
+}
+.optionTab_selected {
+    background: url("../img/option_li2.gif") repeat scroll 0 0 transparent;
+    display: inline-block;
+}
+.optionTab_unSelected {
+    background: url("../img/option_li1.gif") repeat scroll 0 0 transparent;
+}
+
+.dropdown {    
+    position: absolute;
+    left:15px;
+    top: 5px;   
+}
+.dropArrow {
+    background: url(../img/arrow.png) no-repeat scroll 0 0 transparent;
+    height: 4px;
+    width: 7px;
+    display:block;    
+}
+.dropSpan{
+	width:20px;
+	text-align:left;
+	cursor: pointer;
+	position: absolute;
+    top: 10px;   
+}
+.dropMenu{	position: absolute;
+	z-index: 30;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+	left:-10px;
+	}
+.dropMenu a
+{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 12px arial}
+
+.dropMenu a:hover
+{	background: #49A3FF;
+		color: #FFF}
+
+
+
+
+
